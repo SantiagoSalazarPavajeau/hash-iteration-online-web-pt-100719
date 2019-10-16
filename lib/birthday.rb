@@ -8,4 +8,6 @@ def happy_birthday(birthday_kids)
   birthday_kids.map {|name, age| puts "Happy Birthday #{name}! You are now #{age} years old!"}
 end
 
-
+def happy_birthday(birthday_kids)
+  birthday_kids.map {|name, age| puts "Happy Birthday #{name}! You are now #{age} years old!"}
+end
